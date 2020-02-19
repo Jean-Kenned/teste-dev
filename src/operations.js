@@ -1,5 +1,4 @@
-const { configConection } = require('./conection.js')
-const conection = configConection()
+const conection = require('./conection.js')
 
 function insertIntoDatabase(responseJson) {
   var sql = "INSERT INTO dados_dep (cep, nome,endereco,bairro,estado,cidade,retorno_api) VALUES ?";
@@ -31,6 +30,6 @@ function selectFromDatabase() {
 
 
 module.exports = {
-  insertIntoDatabase: insertIntoDatabase,
-  selectFromDatabase: selectFromDatabase
+  insertIntoDatabase,
+  selectFromDatabase
 }

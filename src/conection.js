@@ -14,7 +14,5 @@ conection.connect(function (err) {
 
 
 module.exports = {
-  configConection: () => {
-    return conection
-  }
+  conection
 }
