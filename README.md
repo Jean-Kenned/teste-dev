@@ -1,2 +1,2 @@
 # teste-dev
-Teste realizado como parte do processo seletivo da empresa Smarkio tecnologia.
+Teste realizado com as tecnologias Node.js e MySql.
