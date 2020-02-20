@@ -6,13 +6,13 @@ Teste realizado com as tecnologias Node.js e MySql.
 
  - Instalar módulos:
  
-   `npm install`
-   `npm install -g devtest`
+   `npm install`  
+   `npm install -g devtest`  
    
- - Linkar módulos:
+ - Linkar módulos:  
    `sudo npm link`
    
 ## Utilização
 
- - Para iniciar o script basta executar:
-   `devtest'
+ - Para iniciar o script basta executar:  
+   `devtest`
