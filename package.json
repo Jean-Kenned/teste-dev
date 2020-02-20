@@ -16,6 +16,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "mysql": "^2.18.1",
+    "prompt": "^1.0.0",
     "yargs": "^13.2.4"
   }
 }
